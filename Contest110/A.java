@@ -9,6 +9,7 @@ public class A {
     int count = 0;
 
     while (n > 0) {
+      
       long digit = n % 10;
       if (digit == 4 || digit == 7) {
           count++;
