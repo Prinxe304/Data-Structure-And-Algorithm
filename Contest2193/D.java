@@ -40,11 +40,11 @@ public class D{
       for(int i=0; i<n; ++i){
         b[i] = sc.nextInt();
       }
-for (int i = 1; i <= n; i++) {
-                pre[i] = pre[i - 1] + b[i - 1];
-            }
+      for (int i = 1; i <= n; i++) {
+        pre[i] = pre[i - 1] + b[i - 1];
+      }
 
-            long sum = 0;
+      long sum = 0;
 
       for(int i=0; i<n; ++i){
 
